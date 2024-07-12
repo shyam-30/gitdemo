@@ -28,7 +28,7 @@ pipeline{
     stage('msg'){
       agent any
       steps{
-        sh 'hello dosto'
+        sh 'echo hello dosto'
       }
     }
    
