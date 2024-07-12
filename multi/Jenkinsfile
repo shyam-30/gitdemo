@@ -25,6 +25,11 @@ pipeline{
         sh ' mysql -V'
       }
     }
+    stage('msg'){
+      steps{
+        sh 'hello dosto'
+      }
+    }
    
   }
 }
