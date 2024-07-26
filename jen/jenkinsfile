@@ -13,7 +13,7 @@ echo "now testing is going on"
 }
 stage('deploy'){
 steps{
-echo "now we will deploy"
+echo "now we will deploy and one more this you are not good"
 }
 }
 }
