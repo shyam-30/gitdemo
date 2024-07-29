@@ -1,4 +1,4 @@
-echo "package org.foo
+package org.foo
 
 class Bar {
     static void sayHello() {
