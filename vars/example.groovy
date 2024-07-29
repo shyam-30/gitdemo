@@ -1,3 +1,3 @@
-echo "def call(String name = 'World'){
+def call(String name = 'World'){
  echo "hello, ${name}!"
-}"
+}
