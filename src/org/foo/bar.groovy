@@ -1,8 +1,8 @@
+// src/org/foo/ExampleClass.groovy
 package org.foo
 
-class Bar {
-    static void sayHello() {
-        println 'Hello from Bar'
+class ExampleClass {
+    def someFunction() {
+        println "This is an example function from ExampleClass."
     }
-}"
-
+}
