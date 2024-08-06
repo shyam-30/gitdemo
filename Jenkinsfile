@@ -14,7 +14,7 @@ steps{
     }
     stage('deploy'){
     steps{
-      sh 'cp index.html /usr/share/nginx/html/index.html'
+      sh 'sudo cp index.html /usr/share/nginx/html/index.html'
     }
     }
   }
