@@ -8,7 +8,7 @@ steps{
     }
     stage('install'){
       steps{
-        sh ''' sudo apt-get update -y && apt-get install httpd -y 
+        sh ''' sudo apt-get update -y && sudo apt-get install httpd -y 
                sudo service httpd.service start '''
       }
     }
