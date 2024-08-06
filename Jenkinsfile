@@ -8,13 +8,12 @@ steps{
     }
     stage('install'){
       steps{
-        sh ''' sudo apt-get update -y && sudo apt-get install nginx -y 
-                '''
+        sh 'this is installation '
       }
     }
     stage('deploy'){
     steps{
-      sh 'sudo cp index.html /usr/share/nginx/html/index.html'
+      sh 'jao or so jao gn '
     }
     }
   }
