@@ -1,0 +1,25 @@
+pipeline{
+   agent any
+stages{
+  stage('build'){
+    steps{
+  echo "hello building"
+}
+}
+stage('test'){
+steps{
+echo "now testing is going on"
+}
+}
+stage('deploy'){
+steps{
+echo "now we will deploy and one more this you are not good"
+}
+}
+stage('webhook'){
+ steps{
+echo "now i am using webhook concept."
+}
+}
+}
+}
