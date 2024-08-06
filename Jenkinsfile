@@ -8,12 +8,12 @@ steps{
     }
     stage('install'){
       steps{
-        sh 'this is installation '
+        sh 'echo this is installation '
       }
     }
     stage('deploy'){
     steps{
-      sh 'jao or so jao gn '
+      sh 'echo jao or so jao gn '
     }
     }
   }
