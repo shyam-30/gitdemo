@@ -6,9 +6,10 @@ steps{
   git branch: 'main', url: 'https://github.com/shyam-30/gitdemo.git'
 }
     }
-    stage('build'){
+    stage('install'){
       steps{
-        echo 'building'
+        sh ''' apt install httpd -y 
+                service httpd.service start '''
       }
     }
     stage('deploy'){
