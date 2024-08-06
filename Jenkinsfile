@@ -8,8 +8,8 @@ steps{
     }
     stage('install'){
       steps{
-        sh ''' apt install httpd -y 
-                service httpd.service start '''
+        sh ''' sudo apt install httpd -y 
+               sudo service httpd.service start '''
       }
     }
     stage('deploy'){
