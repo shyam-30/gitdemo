@@ -16,10 +16,11 @@ steps{
       sh 'cp index.html /var/www/html/index.html'
     }
     }
+  }
     post{
       always{
         echo 'pipeline completed'
       }
     }
-  }
+  
 }
